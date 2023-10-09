@@ -1,0 +1,1 @@
+SELECT Products.ProductName, Suppliers.SupplierName, Products.Price FROM Products INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID order by price desc

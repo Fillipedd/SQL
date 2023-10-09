@@ -1,0 +1,1 @@
+SELECT Products.ProductName, Categories.CategoryName, Unit FROM Products INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID 

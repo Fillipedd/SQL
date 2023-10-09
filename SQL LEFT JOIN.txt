@@ -1,0 +1,2 @@
+SELECT Products.ProductName, Products.Price, OrderDetailID, OrderID, Quantity FROM OrderDetails LEFT JOIN Products ON OrderDetails.ProductID = Products.ProductID
+
